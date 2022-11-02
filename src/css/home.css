@@ -1,0 +1,128 @@
+
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 4rem;
+  margin-top: 5rem;
+}
+
+#navigation .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+#navigation .logo span {
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+.menu li:not(:last-child)::after {
+  content: "";
+  border-left: 0.1rem solid black;
+  position: relative;
+  left: 15%;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  padding-inline: 10px;
+  list-style: none;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.menu ul li a:hover {
+  color: #084d6e;
+  transition: all 0.5 ease-in-out;
+}
+
+/*######HEADER######*/
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 13rem;
+  margin-bottom: 10rem;
+
+  padding: 1rem 10rem;
+}
+
+.img-perfil {
+  text-align: end;
+}
+
+.img-perfil img {
+  height: 44rem;
+  width: 44rem;
+
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.header-info {
+  padding-left: 2rem;
+}
+
+.header-info h1 {
+  font-size: 10rem;
+  margin-bottom: 4rem;
+}
+
+.header-info h3 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.header-info p {
+  text-align: start;
+  padding-right: 5rem;
+  font-size: 1.5rem;
+  line-height: 1.4em;
+}
+
+.info-links {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-links .info-div {
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 2rem;
+
+  border: 1px solid black;
+}
+
+.info-links .info-div:nth-child(1):hover,
+.info-links .info-div:nth-child(2):hover,
+.info-links .info-div:nth-child(3):hover {
+  cursor: pointer;
+  background-color: white;
+  transition: all ease-in-out 0.3s;
+}
+
+.info-links .info-div:nth-child(1) {
+  background-color: #eea302 ;
+  transition: all ease-in-out 0.3s;
+}
+.info-links .info-div:nth-child(2) {
+  background-color: #ff3b25 ;
+  transition: all ease-in-out 0.3s;
+}
+.info-links .info-div:nth-child(3) {
+  background-color: #80d8da ;
+  transition: all ease-in-out 0.3s;
+}
+
