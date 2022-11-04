@@ -202,7 +202,8 @@
   }
 
   /*############################################*/
-  
+
+
   .header {
     display: grid;
     grid-template-columns: 1fr;
@@ -229,6 +230,15 @@
     left: 0;
     z-index: 1;
   }
+
+  #navigation.active .menu {
+    display: block;
+  }
+
+  .body {
+    overflow: hidden;
+  }
+
 
   .menu ul {
     flex-direction: column;
@@ -296,10 +306,6 @@
     top: -7px;
   }
 
-  #navigation.active .menu {
-    display: block;
-  }
-
   .header-info {
     margin-inline: 1rem;
     padding-inline: 1rem;
@@ -335,55 +341,5 @@
     text-align: center;
     gap: 3rem;
   }
-  /*
 
-  
-
-  
-
-
-
-  .header {
-    grid-template-columns: 1fr;
-    margin: initial;
-    padding: initial;
-  }
-
-
-  .header-info {
-    padding-inline: 3rem;
-    margin-bottom: 5rem;
-  }
-
-  .header-info h1 {
-    font-size: 2.5rem;
-    margin: initial;
-  }
-
-  .header-info h3 {
-    margin: initial;
-
-  }
-
-  .header-info p {
-    padding: initial;
-    text-align: justify;
-  }
-
-  .info-links {
-    gap: 1rem;
-  }
-
-  #footer {
-    flex-direction: column;
-    gap: 4rem;
-    text-align: center;
-
-    margin: initial;
-    padding-block:4rem;
-  }
-
-  #footer div p{
-    margin-block: .5rem;
-  } */
 }

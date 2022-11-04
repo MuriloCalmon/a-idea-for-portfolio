@@ -40,6 +40,10 @@ function handleToggleMenu() {
   const nav = document.querySelector("#navigation").classList.toggle('active')
 }
 
+menuMobile.addEventListener("click", () => {
+  const body = document.querySelector("body").classList.toggle('body')
+})
+
 menuMobile.addEventListener("click", handleToggleMenu)
 
 fillSkillsAccordingToLevel()
