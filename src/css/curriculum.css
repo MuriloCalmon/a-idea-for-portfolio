@@ -11,7 +11,7 @@
   
 }
 
-.container-info {
+.curriculo-container-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
 
@@ -23,21 +23,21 @@
 
 }
 
-.content-info2 {
+.split-content-in-two {
   display: flex;
   font-size: 1.6rem;
   gap: 2rem;
   flex-direction: column;
 }
 
-.content-info3 {
+.content-of-skills {
   text-align: start;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.content-info3 h5 {
+.content-of-skills h5 {
   font-size: 1.8rem;
 }
 
