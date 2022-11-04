@@ -10,7 +10,7 @@
 #navigation .logo {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 1rem;
 }
 
 #navigation .logo span {
@@ -136,10 +136,87 @@
 
 @media only screen and (max-width: 1024px) {
 
-
-  #navigation .logo {
+  * {
+    font-size: initial;
     margin: initial;
     padding: initial;
+  }
+
+  #navigation {
+    margin: initial;
+    padding: initial;
+    font-size: initial;
+  }
+
+  .logo {
+    font-size: initial;
+  }
+
+  .menu {
+    padding: initial;
+    margin: initial;
+    font-size: initial;
+  }
+
+  .menu ul li {
+    padding: initial;
+    font-size: initial;
+  }
+
+  .header {
+    margin: initial;
+    padding: initial;
+  }
+
+  .img-perfil img {
+    margin: initial;
+    padding: initial;
+  }
+
+  .header-info {
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-info h1 {
+    padding: 0;
+    margin: 0;
+    font-size: initial;
+  }
+
+  .header-info h3 {
+    padding: 0;
+    margin: 0;
+    font-size: initial;
+  }
+
+  .header-info p {
+    padding: 0;
+    margin: 0;
+    font-size: initial;
+  }
+
+  .info-link {
+    margin: 0;
+    padding: 0;
+  }
+
+  /*############################################*/
+  
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .img-perfil {
+    text-align: center;
+  }
+
+  .img-perfil img {
+    height: 20rem;
+    width: 20rem;
+
+    margin-block: 3rem;
   }
 
   .menu {
@@ -159,6 +236,20 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+  }
+
+  #navigation {
+    padding-inline: 2rem;
+    padding-block: 4rem;
+    height: 3vh;
+  }
+
+  #navigation h1 {
+    font-size: 1.8rem;
+  }
+
+  #navigation .logo span {
+    font-size: 1rem;
   }
 
   #menu-mobile {
@@ -209,6 +300,45 @@
     display: block;
   }
 
+  .header-info {
+    margin-inline: 1rem;
+    padding-inline: 1rem;
+  }
+
+
+  .info-links .info-div {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2rem;
+  
+    border: 1px solid black;
+  }
+  
+  .info-div a {
+    font-size: 1.6rem;
+  }
+
+  .linha {
+    margin-block: 5rem;
+  }
+
+  #footer {
+    margin: 0;
+    margin-bottom: 4rem;
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+  /*
+
+  
+
   
 
 
@@ -219,16 +349,6 @@
     padding: initial;
   }
 
-  .img-perfil {
-    text-align: center;
-  }
-
-  .img-perfil img {
-    height: 20rem;
-    width: 20rem;
-
-    margin-block: 3rem;
-  }
 
   .header-info {
     padding-inline: 3rem;
@@ -265,5 +385,5 @@
 
   #footer div p{
     margin-block: .5rem;
-  }
+  } */
 }
