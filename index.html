@@ -3,7 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="./src/css/index.css">
-  <link rel="stylesheet" href="./src/css/home.css">
+  <link rel="stylesheet" href="./src/css/base.css">
   <link rel="stylesheet" href="./src/css/curriculum.css">
 
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -71,15 +71,23 @@
           </p>
         </div>
         <div class="info-links">
-          <div class="info-div" data-aos="flip-left">
-            <a href="" data-aos="fade-left" data-aos-duration="800">Currículo</a>
-          </div>
-          <div class="info-div" data-aos="flip-left">
-            <a href="" data-aos="fade-left" data-aos-duration="900">Projetos</a>
-          </div>
-          <div class="info-div" data-aos="flip-left">
-            <a href="" data-aos="fade-left" data-aos-duration="1000">Contato</a>
-          </div>
+          <a href="/curriculum.html">
+            <div class="info-div bg-curriculo" data-aos="flip-left">
+              <p data-aos="fade-left" data-aos-duration="800">Currículo</p>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="info-div bg-projetos" data-aos="flip-left">
+              <p data-aos="fade-left" data-aos-duration="900">Projetos</p>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="info-div bg-contatos" data-aos="flip-left">
+              <p data-aos="fade-left" data-aos-duration="1000">Contato</p>
+            </div>
+          </a>
         </div>
       </div>
     </section>
