@@ -178,13 +178,13 @@
   .header-info h1 {
     padding: 0;
     margin: 0;
-    font-size: initial;
+    font-size: 2.7rem;
   }
 
   .header-info h3 {
     padding: 0;
     margin: 0;
-    font-size: initial;
+    font-size: 2.2rem;
   }
 
   .header-info p {
@@ -341,6 +341,7 @@
   }
   
   .info-links .info-div p {
+    padding: 0;
     font-size: 1.6rem;
   }
 
