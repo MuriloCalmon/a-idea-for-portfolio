@@ -1,0 +1,28 @@
+#projects {
+  padding-inline: 2rem;
+}
+
+.projects-content {
+  margin-bottom: 5rem;
+}
+
+.projects-content h1 {
+  font-size: 2.7rem;
+  margin-block: 3rem;
+}
+
+.info-projects h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+
+
+.img-project {
+  width: 200px;
+  height: 200px;
+
+  margin-top: 2rem;
+  border-radius: 5px;
+
+}

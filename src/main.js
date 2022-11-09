@@ -46,4 +46,3 @@ menuMobile.addEventListener("click", handleToggleMenu)
 
 fillSkillsAccordingToLevel()
 
-
