@@ -227,7 +227,7 @@
     left: 0;
     z-index: 1;
 
-    transition: all 0.5s;
+    transition: all 0.1s;
     transform: translateY(500px);
   }
 
