@@ -1,4 +1,4 @@
-.curriculo {
+.curriculo-container {
   margin-block: 13rem;
 }
 
@@ -54,4 +54,66 @@
 
 .categories {
   border-right: 1px solid black ;
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+  .curriculo-container {
+    margin-block: initial;
+    padding-inline: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .curriculo-container h1 {
+    padding-inline: initial;
+    margin-left: initial;
+    font-size: 2.7rem;
+    font-weight: 700;
+  }
+  
+  .curriculo-container-info {
+    display: grid;
+    grid-template-columns: 1fr;
+  
+    padding-inline: initial;
+    margin-top: initial;
+  
+    
+    align-items: flex-start;
+  
+  }
+  
+  .split-content-in-two {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  
+  .content-of-skills {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .content-of-skills h5 {
+    font-size: 1.8rem;
+  }
+  
+  .title-info {
+    margin-left: initial;
+    margin-block: 2rem;
+  }
+
+  
+  .div-color {
+    margin-top: initial;
+    height: 0.7rem;
+    background-color: black;
+  }
+  
+  .categories {
+    border-right: 1px solid black ;
+  }
 }

@@ -1,5 +1,3 @@
-
-
 var typed = new Typed('.dev-text', {
   strings: ['Dev front end', 'Analista de sistemas', 'Tec. em TI'],
   typeSpeed: 100,

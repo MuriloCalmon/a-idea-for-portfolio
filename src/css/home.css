@@ -136,11 +136,6 @@
 
 @media only screen and (max-width: 1024px) {
 
-  * {
-    font-size: initial;
-    margin: initial;
-    padding: initial;
-  }
 
   #navigation {
     margin: initial;
@@ -229,6 +224,11 @@
     top: 0;
     left: 0;
     z-index: 1;
+  }
+
+  .menu ul li a {
+    
+    font-size: 2.5rem;
   }
 
   #navigation.active .menu {
