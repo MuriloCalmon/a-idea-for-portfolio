@@ -1,0 +1,30 @@
+//BASE
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .linha {
+    padding-inline: 4rem;
+  }
+
+  body {
+    font-size: 1.8rem;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #e9e9e9;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }

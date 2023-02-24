@@ -1,0 +1,25 @@
+//FOOTER
+#footer {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 4rem;
+    padding-block: 7rem;
+
+    .p-s-bold{
+        font-weight: 600;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    #footer {
+        margin: 0;
+        margin-bottom: 4rem;
+        padding: 0;
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+      }
+}
