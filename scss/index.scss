@@ -228,7 +228,6 @@
         justify-content: center;
         height: 100vh;
 
-        transform: translateX(300px);
 
         li{
             a{
@@ -240,15 +239,9 @@
 
     #navigation.active .menu {
       visibility: visible;
-      transition: all 0.5s;
+      transition: all 0.7s;
       transform: translateY(0);
 
-      ul {
-        transition-property: all;
-        transition-delay: 0.5s;
-        transition-duration: 0.5s;
-        transform: translateX(0);
-      }
     }
 
     #navigation {
