@@ -159,27 +159,6 @@
       padding: initial;
     }
 
-    .header-info {
-      padding: 0;
-      margin: 0;
-    }
-
-    .header-info h1 {
-      padding: 0;
-      margin: 0;
-    }
-
-    .header-info h3 {
-      padding: 0;
-      margin: 0;
-      font-size: 2.2rem;
-    }
-
-    .header-info p {
-      padding: 0;
-      margin: 0;
-      font-size: initial;
-    }
 
     .info-link {
       margin: 0;
@@ -206,7 +185,32 @@
             margin-block: 3rem;
           }
       }
+
+      .header-info {
+        padding: 2rem;
+        margin: 1rem;
+      }
+
+      .header-info h1 {
+        padding: 0;
+        margin: 0;
+        font-size: 5.5rem;
+      }
+
+      .header-info h3 {
+        padding: 0;
+        margin: 0;
+        font-size: 2.2rem;
+      }
+
+      .header-info p {
+        padding: 0;
+        margin: 0;
+        text-align: justify;
+      }
+
     }
+
     .menu {
       visibility: hidden;
       position: absolute;
