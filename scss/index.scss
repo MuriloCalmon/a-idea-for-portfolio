@@ -131,6 +131,7 @@
     #navigation {
       margin: initial;
       padding: initial;
+      font-size: initial;
     }
 
     .logo {
@@ -166,7 +167,6 @@
     .header-info h1 {
       padding: 0;
       margin: 0;
-      font-size: 2.7rem;
     }
 
     .header-info h3 {
@@ -218,7 +218,6 @@
       z-index: 1;
 
       transition: all 0.1s;
-      transform: translateY(500px);
 
       ul {
         flex-direction: column;
